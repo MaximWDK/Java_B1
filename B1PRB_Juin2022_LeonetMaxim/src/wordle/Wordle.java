@@ -24,6 +24,7 @@ public class Wordle {
 	 * @param motSolution = Le mot que le joueur doit trouver
 	 * @return La référence d'un tableau
 	 */
+	
 	public static String getIndices(String motJoueur, String motSolution) {
 		char[] newMotJoueur = new char[5];
 		char vide = ' ';
